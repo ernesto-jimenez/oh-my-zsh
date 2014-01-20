@@ -15,7 +15,7 @@ ZSH_THEME_GIT_PROMPT_SUFFIX=""
 ZSH_THEME_GIT_PROMPT_DIRTY=" %{$fg_bold[red]%}✗"
 ZSH_THEME_GIT_PROMPT_CLEAN=" %{$fg_bold[green]%}✔"
 
-PROMPT='${last_cmd_status_color}[%*] %m:%~%# '
+PROMPT='${last_cmd_status_color}%m:%~%# '
 RPROMPT="%{$fg[gray]%} ${rvm_prompt} ${git_status}${git_branch}"
 
 RPROMPT=$RPROMPT'%{$reset_color%}'
